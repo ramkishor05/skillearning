@@ -1,60 +1,17 @@
 <!DOCTYPE html>
 <html>
-  <title>W3.CSS</title>
+  <head>
+  <title>Skil Learning</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="../4/w3.css">
-  <link rel="stylesheet" href="../lib/w3schools30.css">
-  <link rel='stylesheet' href='../lib/prism1.css'>
-  <style>
-    .w3-theme {
-      color: #fff !important;
-      background-color: #4CAF50 !important
-    }
-
-    .w3-btn {
-      background-color: #4CAF50;
-      margin-bottom: 4px
-    }
-
-    .w3-code {
-      border-left: 4px solid #4CAF50
-    }
-
-    .myMenu {
-      margin-bottom: 150px
-    }
-  </style>
+  <meta name="google-adsense-account" content="ca-pub-3275898218055604">
+  <link rel="stylesheet" href="../../4/w3.css">
+  <link rel="stylesheet" href="../../lib/w3schools30.css">
+  <link rel='stylesheet' href='../../lib/prism1.css'>
+  <link rel='stylesheet' href='../../css/app.css'>
+  <script src="../../js/app.js"></script>
+</head>
   <body>
-    <!-- Top -->
-    <div class="w3-top">
-      <div class="w3-row w3-white w3-padding">
-        <div class="w3-half" style="margin:4px 0 6px 0">
-          <a href='../index.html'>
-            <img src='../logo.png' alt='skillearning.com' width="250" height="50">
-          </a>
-        </div>
-        <div class="w3-half w3-margin-top w3-wide w3-hide-medium w3-hide-small">
-          <div class="w3-right">THE WORLD'S LARGEST WEB DEVELOPER SITE</div>
-        </div>
-      </div>
-      <div class="w3-bar w3-theme w3-large" style="z-index:4;">
-        <div class="w3-bar w3-light-grey">
-          <a href="javascript:void(0)" onclick="w3_show_nav('menuRef')" class="w3-bar-item w3-button">Home</a>
-          <a href="javascript:void(0)" onclick="w3_show_nav('menuTut')" class="w3-bar-item w3-button">Programming</a>
-          <a href="javascript:void(0)" onclick="w3_show_nav('menuTut')" class="w3-bar-item w3-button">Srcipts</a>
-          <a href="javascript:void(0)" onclick="w3_show_nav('menuTut')" class="w3-bar-item w3-button">Database</a>
-          <a href="javascript:void(0)" onclick="w3_show_nav('menuTut')" class="w3-bar-item w3-button">Data structures</a>
-          <div class="w3-dropdown-hover">
-            <button class="w3-button">Interview</button>
-            <div class="w3-dropdown-content w3-bar-block w3-card-4" style="z-index:3">
-              <a href="nodejs.html" class="w3-bar-item w3-button">Node Js</a>
-              <a href="reactjs.html" class="w3-bar-item w3-button">React JS</a>
-              <a href="nestjs.html" class="w3-bar-item w3-button">Nest Js</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <div w3-include-html="../../header.html"></div>
     <!-- Sidebar -->
     <div class="w3-sidebar w3-bar-block w3-collapse" style="z-index:0;width:270px" id="mySidebar">
       <div class="w3-bar w3-hide-large w3-large">
@@ -426,7 +383,7 @@
     <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
     <!-- Main content: shift it to the right by 270 pixels when the sidebar is visible -->
     <div class="w3-main w3-container" style="margin-left:270px;margin-top:117px;">
-      <h2>Node Interview Questions & Answers</h2>
+      <h2>Nest Interview Questions & Answers</h2>
       <h3 id="table-of-contents">Table of Contents</h3>
       <table class="w3-table-all">
         <thead>
@@ -11252,13 +11209,14 @@ function ExampleApplication() {
         document.getElementById("menuTut").style.display = "none";
         document.getElementById("menuRef").style.display = "none";
         document.getElementById(name).style.display = "block";
-        w3 - open();
+        w3_open();
       }
     </script>
     <script src="lib/w3codecolor.js"></script>
     <script src="lib/prism2.js"></script>
     <script>
       w3CodeColor();
+      includeHTML();
     </script>
   </body>
   <!-- Mirrored from www.w3schools.com/w3css/tryw3css_examples_home.htm by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 21 Dec 2022 16:50:47 GMT -->
