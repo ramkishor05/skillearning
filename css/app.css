@@ -51,9 +51,6 @@
     box-shadow: 0 1px 5px 0 rgba(236, 40, 67, 0.16), 0 1px 10px 0 rgba(128, 30, 30, 0.12);
   }
 
-  #nav {
-    background-color: #ab375c !important;
-  }
   div a.img {
     height: 50px !important;
   }
@@ -84,4 +81,8 @@
 
   .w3-sidebar{
     height: 78% !important;
+  }
+
+  .content{
+    margin-right:270px;margin-left:270px;margin-top:117px;
   }
