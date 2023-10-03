@@ -1,41 +1,55 @@
 <!-- Sidebar -->
 <div class="w3-sidebar w3-bar-block w3-collapse" style="z-index:0;width:270px" id="mySidebar">
-    <div class="w3-bar w3-hide-large w3-large">
-      <a href="javascript:void(0)" onclick="w3_show_nav('menuTut')" class="w3-bar-item w3-button w3-theme w3-hover-white w3-padding-16" style="width:50%">Tutorials</a>
-      <a href="javascript:void(0)" onclick="w3_show_nav('menuRef')" class="w3-bar-item w3-button w3-theme w3-hover-white w3-padding-16" style="width:50%">References</a>
+     <div id="menuTut" class="myMenu">
+        <a class="w3-bar-item w3-button" href="#what-do-you-mean-by-asynchronous-api-☆☆">What do you mean by Asynchronous API? ☆☆</a>
+        <a class="w3-bar-item w3-button" href="#what-are-the-benefits-of-using-nodejs-☆☆">What are the benefits of using Node.js? ☆☆</a>
+        <a class="w3-bar-item w3-button" href="#is-node-a-single-threaded-application-☆☆">Is Node a single threaded application? ☆☆</a>
+        <a class="w3-bar-item w3-button" href="#what-is-global-installation-of-dependencies-☆☆">What is global installation of dependencies? ☆☆</a>
+        <a class="w3-bar-item w3-button" href="#what-is-an-error-first-callback-☆☆">What is an error-first callback? ☆☆</a>
+        <a class="w3-bar-item w3-button" href="#whats-the-difference-between-operational-and-programmer-errors-☆☆">What&#39;s the difference between operational and programmer errors? ☆☆</a>
+        <a class="w3-bar-item w3-button" href="#what-is-the-difference-between-nodejs-ajax-and-jquery-☆☆">What is the difference between Nodejs, AJAX, and jQuery? ☆☆</a>
+        <a class="w3-bar-item w3-button" href="#how-to-make-post-request-in-nodejs-☆☆">How to make Post request in Node.js? ☆☆</a>
+        <a class="w3-bar-item w3-button" href="#what-are-the-key-features-of-nodejs-☆☆">What are the key features of Node.js? ☆☆</a>
+        <a class="w3-bar-item w3-button" href="#what-is-control-flow-function---☆☆">What is control flow function?   ☆☆</a>
+        <a class="w3-bar-item w3-button" href="#what-are-event-listeners---☆☆">What are Event Listeners?   ☆☆</a>
+        <a class="w3-bar-item w3-button" href="#if-nodejs-is-single-threaded-then-how-it-handles-concurrency-☆☆">If Node.js is single threaded then how it handles concurrency? ☆☆</a>
+        <a class="w3-bar-item w3-button" href="#what-is-callback-hell-☆☆">What is Callback Hell? ☆☆</a>
+        <a class="w3-bar-item w3-button" href="#could-we-run-an-external-process-with-nodejs-☆☆">Could we run an external process with Node.js? ☆☆</a>
+        <a class="w3-bar-item w3-button" href="#list-out-the-differences-between-angularjs-and-nodejs-☆☆"> List out the differences between AngularJS and NodeJS? ☆☆</a>
+        <a class="w3-bar-item w3-button" href="#how-you-can-monitor-a-file-for-modifications-in-nodejs--☆☆"> How you can monitor a file for modifications in Node.js ? ☆☆</a>
+        <a class="w3-bar-item w3-button" href="#what-are-the-core-modules-of-nodejs-☆☆">What are the core modules of Node,js? ☆☆</a>
+        <a class="w3-bar-item w3-button" href="#what-is-v8-☆☆">What is V8? ☆☆</a>
+        <a class="w3-bar-item w3-button" href="#what-is-libuv-☆☆">What is libuv? ☆☆</a>
+        <a class="w3-bar-item w3-button" href="#what-is-the-difference-between-returning-a-callback-and-just-calling-a-callback-☆☆">What is the difference between returning a callback and just calling a callback? ☆☆</a>
+        <a class="w3-bar-item w3-button" href="#what-is-repl-in-context-of-node-☆☆☆">What is REPL in context of Node? ☆☆☆</a>    
+        <a class="w3-bar-item w3-button" href="#what-is-callback-☆☆☆">What is Callback? ☆☆☆</a>
+        <a class="w3-bar-item w3-button" href="#what-is-a-blocking-code-☆☆☆">What is a blocking code? ☆☆☆</a>
+        <a class="w3-bar-item w3-button" href="#how-node-prevents-blocking-code-☆☆☆">How Node prevents blocking code? ☆☆☆</a>
+        <a class="w3-bar-item w3-button" href="#what-is-event-loop-☆☆☆">What is Event Loop? ☆☆☆</a>
+        <a class="w3-bar-item w3-button" href="#what-is-event-emmitter-☆☆☆">What is Event Emmitter? ☆☆☆</a>
+        <a class="w3-bar-item w3-button" href="#what-is-purpose-of-buffer-class-in-node-☆☆☆">What is purpose of Buffer class in Node? ☆☆☆</a>
+        <a class="w3-bar-item w3-button" href="#what-is-difference-between-synchronous-and-asynchronous-method-of-fs-module-☆☆☆">What is difference between synchronous and asynchronous method of fs module? ☆☆☆</a>
+        <a class="w3-bar-item w3-button" href="#what-are-streams-☆☆☆">What are streams? ☆☆☆</a>
+        <a class="w3-bar-item w3-button" href="#what-is-chaining-in-node-☆☆☆">What is Chaining in Node? ☆☆☆</a>
+        <a class="w3-bar-item w3-button" href="#what-is-the-purpose-of-settimeout-function-☆☆☆">What is the purpose of setTimeout function? ☆☆☆</a>
+        <a class="w3-bar-item w3-button" href="#how-can-you-avoid-callback-hells-☆☆☆">How can you avoid callback hells? ☆☆☆</a>
+        <a class="w3-bar-item w3-button" href="#whats-the-event-loop-☆☆☆">What&#39;s the event loop? ☆☆☆</a>
+        <a class="w3-bar-item w3-button" href="#how-to-avoid-callback-hell-in-nodejs-☆☆☆">How to avoid callback hell in Node.js? ☆☆☆</a>
+        <a class="w3-bar-item w3-button" href="#explain-how-does-nodejs-work-☆☆☆">Explain how does Node.js work? ☆☆☆</a>
+        <a class="w3-bar-item w3-button" href="#when-should-we-use-nodejs-☆☆☆">When should we use Node.js? ☆☆☆</a>
+        <a class="w3-bar-item w3-button" href="#how-does-nodejs-handle-child-threads-☆☆☆">How does Node.js handle child threads? ☆☆☆</a>
+        <a class="w3-bar-item w3-button" href="#what-is-the-preferred-method-of-resolving-unhandled-exceptions-in-nodejs-☆☆☆">What is the preferred method of resolving unhandled exceptions in Node.js? ☆☆☆</a>
+        <a class="w3-bar-item w3-button" href="#what-is-stream-and-what-are-types-of-streams-available-in-nodejs-☆☆☆">What is stream and what are types of streams available in Node.js? ☆☆☆</a>
+        <a class="w3-bar-item w3-button" href="#what-are-the-global-objects-of-nodejs-☆☆☆">What are the global objects of Node.js? ☆☆☆</a>
+        <a class="w3-bar-item w3-button" href="#what-is-piping-in-node-☆☆☆☆">What is Piping in Node? ☆☆☆☆</a>
+        <a class="w3-bar-item w3-button" href="#name-some-of-the-events-fired-by-streams-☆☆☆☆">Name some of the events fired by streams. ☆☆☆☆</a>
+        <a class="w3-bar-item w3-button" href="#what-is-the-purpose-of-__filename-variable-☆☆☆☆">What is the purpose of __filename variable? ☆☆☆☆</a>
+        <a class="w3-bar-item w3-button" href="#how-can-you-listen-on-port-80-with-node-☆☆☆☆">How can you listen on port 80 with Node? ☆☆☆☆</a>
+        <a class="w3-bar-item w3-button" href="#what-tools-can-be-used-to-assure-consistent-code-style-☆☆☆☆">What tools can be used to assure consistent code style? ☆☆☆☆</a>
+        <a class="w3-bar-item w3-button" href="#whats-a-stub-name-a-use-case-☆☆☆☆">What&#39;s a stub? Name a use case. ☆☆☆☆</a>
+        <a class="w3-bar-item w3-button" href="#does-nodejs-support-multi-core-platforms-and-is-it-capable-of-utilizing-all-the-cores-☆☆☆☆">Does Node.js support multi-core platforms? And is it capable of utilizing all the cores? ☆☆☆☆</a>
+        <a class="w3-bar-item w3-button" href="#is-nodejs-entirely-based-on-a-single-thread-☆☆☆☆">Is Node.js entirely based on a single-thread? ☆☆☆☆</a>
+        <a class="w3-bar-item w3-button" href="#when-to-not-use-nodejs-☆☆☆☆">When to not use Node.js? ☆☆☆☆</a>
     </div>
-    <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-right w3-xlarge w3-hide-large" title="Close Menu">&times;</a>
-    <div id="menuTut" class="myMenu">
-     
-        <a class="w3-bar-item w3-button" href="#q1-what-do-you-mean-by-asynchronous-api-☆☆">Q1: What do you mean by Asynchronous API? ☆☆</a>
-        <a class="w3-bar-item w3-button" href="#q2-what-are-the-benefits-of-using-nodejs-☆☆">Q2: What are the benefits of using Node.js? ☆☆</a>
-        <a class="w3-bar-item w3-button" href="#q3-is-node-a-single-threaded-application-☆☆">Q3: Is Node a single threaded application? ☆☆</a>
-        <a class="w3-bar-item w3-button" href="#q4-what-is-global-installation-of-dependencies-☆☆">Q4: What is global installation of dependencies? ☆☆</a>
-        <a class="w3-bar-item w3-button" href="#q5-what-is-an-error-first-callback-☆☆">Q5: What is an error-first callback? ☆☆</a>
-        <a class="w3-bar-item w3-button" href="#q6-whats-the-difference-between-operational-and-programmer-errors-☆☆">Q6: What&#39;s the difference between operational and programmer errors? ☆☆</a>
-        <a class="w3-bar-item w3-button" href="#q7-what-is-the-difference-between-nodejs-ajax-and-jquery-☆☆">Q7: What is the difference between Nodejs, AJAX, and jQuery? ☆☆</a>
-        <a class="w3-bar-item w3-button" href="#q8-how-to-make-post-request-in-nodejs-☆☆">Q8: How to make Post request in Node.js? ☆☆</a>
-        <a class="w3-bar-item w3-button" href="#q9-what-are-the-key-features-of-nodejs-☆☆">Q9: What are the key features of Node.js? ☆☆</a>
-        <a class="w3-bar-item w3-button" href="#q10-what-is-control-flow-function---☆☆">Q10: What is control flow function?   ☆☆</a>
-        <a class="w3-bar-item w3-button" href="#q11-what-are-event-listeners---☆☆">Q11: What are Event Listeners?   ☆☆</a>
-        <a class="w3-bar-item w3-button" href="#q12-if-nodejs-is-single-threaded-then-how-it-handles-concurrency-☆☆">Q12: If Node.js is single threaded then how it handles concurrency? ☆☆</a>
-        <a class="w3-bar-item w3-button" href="#q13-what-is-callback-hell-☆☆">Q13: What is Callback Hell? ☆☆</a>
-        <a class="w3-bar-item w3-button" href="#q14-could-we-run-an-external-process-with-nodejs-☆☆">Q14: Could we run an external process with Node.js? ☆☆</a>
-        <a class="w3-bar-item w3-button" href="#q15--list-out-the-differences-between-angularjs-and-nodejs-☆☆">Q15:  List out the differences between AngularJS and NodeJS? ☆☆</a>
-        
     
-    </div>
-    <div id="menuRef" class="myMenu" style="display:none">
-      <div class="w3-container">
-        <h3>References</h3>
-      </div>
-      <a class="w3-bar-item w3-button" href='../tags/default.html'>HTML Tag Reference</a>
-      <a class="w3-bar-item w3-button" href='../colors/default.html'>HTML Color Reference</a>
-      <a class="w3-bar-item w3-button" href='../cssref/index.html'>CSS Reference</a>
-      <a class="w3-bar-item w3-button" href='../cssref/css_selectors.html'>CSS Selector Reference</a>
-      <a class="w3-bar-item w3-button" href='w3css_references.html'>W3.CSS Reference</a>
-      <a class="w3-bar-item w3-button" href='../jsref/default.html'>JavaScript Reference</a>
-      <a class="w3-bar-item w3-button" href='../php/php_ref_array.html'>PHP Reference</a>
-      <a class="w3-bar-item w3-button" href='../sql/sql_quickref.html'>SQL Reference</a>
-    </div>
   </div>
