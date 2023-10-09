@@ -86,3 +86,9 @@
   .content{
     margin-right:270px;margin-left:270px;margin-top:117px;
   }
+
+  img{
+    position: relative;
+    max-width: 100%;
+    align-content: center;
+  }
